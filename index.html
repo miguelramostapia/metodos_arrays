@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío - Gestor de tareas</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <script src="https://kit.fontawesome.com/69f81ea0a3.js" crossorigin="anonymous"></script>
+  </head>
+  <body onload="refresh_pagina_inicio()">
+    <div class="container">
+      <h1>Gestor de Tareas </h1>
+      <hr><br><br>
+      <label for="uname">Ingrese la descripción de la tarea para su registro </label><br><br>
+      <input id="uname" class="uname" placeholder="Escriba aquí la descripción de la tarea">
+      <button onclick="add_tarea()">Agregar</button>
+      <br><br><br>
+      <div class="container_tareas">
+        <div class="resumen">
+
+        </div>
+        <div class="tareas">
+  
+        </div>  
+      </div>
+
+    </div>
+
+    <script src="./assets/js/index_resumen.js"></script>
+   <!-- <script src="./assets/js/index.js"></script>
+   -->
+  </body>
+</html>
